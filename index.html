@@ -5,33 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Sample</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>Furniture Store</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-                <a href="#">Contacts</a>
-                <a href="#">Contacts</a>
-            </div>
-            <img src="img/logo.png" alt="Fimgaland Logo">
-            <div class="social-icons">
-
-            </div>
-        </nav>
-        <div class="hero">
-            <h1>The Best Products</h1>
-        </div>
-    </header>
+    <header data-include="partials/header.partial.html"></header>
     <main>
+        <div data-include="partials/furniture-collection.partial.html"></div>
+        <section data-include="partials/shows.partial.html"></section>
     </main>
-    <footer>
-        
-    </footer>
+    <footer data-include="partials/footer.partial.html"> </footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 
 </html>
