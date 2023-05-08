@@ -1,0 +1,7 @@
+.shows__carousel .carousel__indicator {
+    border: 2px solid var(--carousel-indicator-border);
+}
+
+.shows__carousel .carousel__indicator--active {
+    border: 2px solid var(--carousel-indicator-active-border);
+}

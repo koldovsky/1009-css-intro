@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-text-color: black;
+    --carousel-indicator-border: green;
+    --carousel-indicator-active-border: rgb(125, 228, 0);   
+    --title-color: red; 
+}
+
+h1 {
+    color: var(--title-color);
+    text-decoration: underline;
+    font-family: 'Mrs Saint Delafield', cursive;
+}
+
